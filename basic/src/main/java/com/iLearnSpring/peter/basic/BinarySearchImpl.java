@@ -11,6 +11,7 @@ public class BinarySearchImpl {
     @Autowired
     private Sort sort;
 
+    // constructor was important so the autowired could be injected
     public BinarySearchImpl(Sort sort) {
         super();
         this.sort = sort;
